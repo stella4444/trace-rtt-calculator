@@ -13,14 +13,15 @@ The script consists of three main functions:
 **python trace_rtt_analyzer.py**
 3. View the output which displays TTL, IP addresses, and RTT values.
 
-# Example Output
+## Example Output
 TTL 64 192.168.1.1 25.78 ms
+
 TTL 128 10.0.0.1 30.12 ms
 
-# Requirements
+## Requirements
 Python 3.x
 
-# Notes
+## Notes
 Ensure the trace file format matches the expected structure for proper parsing.
 The script assumes that each packet's unique ID can be found in both sent packets and ICMP responses to match RTT calculations accurately.
 
